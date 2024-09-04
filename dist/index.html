@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <div class="  w-screen bg-slate-50 grid place-content-center h-screen  ">
+        <h3 class="text-black font-bold text-center m-1 text-3xl ">Login</h3>
+        <input class=" bg-slate-200 mt-9 mb-2 h-12 w-96 rounded-xl p-2" type="email" name="email" id="email" placeholder="email">
+        <input class="bg-slate-200  mt-1 mb-2 h-12 w-96 rounded-xl p-2" type="password" name="password" id="password" placeholder="Password">
+        <button class="mt-5 bg-black text-white rounded-xl p-2 text-xl " id="login">Log in</button>
+    </div>
+    
+
+
+
+
+
+    <script>
+
+        let email = document.getElementById('email');
+        let password = document.getElementById('password');
+        let emailval = 'reyyanahmed085@gmail.com';
+        let compareEmail = email.value.toLowerCase();
+        let passwordval = '1234566';
+
+        let btn = document.getElementById('login');
+        btn.addEventListener('click',()=>{
+            if (email.value == emailval && passwordval == password.value) {
+               return  window.location.href = '/dist/task/task.html'
+            }
+           alert("wrong")
+           reload()
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="location.css">
+    <script src="https://kit.fontawesome.com/e6109599b0.js" crossorigin="anonymous"></script>
+    <script src="location.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navcontent">
+             <!---->  <div class="option">
+                    <button class="navbtn" type="button" id="taskbtn"  ><i class="fa-solid fa-list-check navicon" ></i>  Task</button>
+                    <button class="navbtn" type="button" id="locationbtn"> <i class="fa-solid fa-location-dot navicon"></i>Location</button></div>
+                    <button class="navbtn" id="logoutbtn"> <i class="fa-solid fa-arrow-right-from-bracket navicon"></i>Logout</button>
+
+                
+        </div>
+
+        
+        
+
+        <div class="location">
+              
+                <button class="getloc" id="getloc">+ Check in</button>
+
+                <div class="locationhandling">
+                    <p class="clheading" >currentlocation</p>
+                    <div class="currentlocation" id="currentlocation">
+
+                        <p class="icon">&#128205</p>
+                         <div class="locdata">
+                             <span class="cityname" id="cityname"></span>
+                             <span class="loccoords" id="loccoords"></span>
+                            </div>
+                        
+                    </div>
+
+                   
+               
+
+                <div class="previouslocations" id="previouslocations">
+                    <p class="clheading" >Previous locations</p>
+                    
+                   
+                </div>
+
+
+                </div>
+                
+
+                
+              
+        </div>
+
+    </div>
+    
+</body>
+</html>
