@@ -11,10 +11,10 @@ let completedTasksList  = document.getElementById('completedtaskslist');
 
 
 logoutbtn.addEventListener('click',()=>{
-    window.location.href = '/dist/index.html'
+    window.location.href = '../../index.html'
 })
 locationbtn.addEventListener('click',()=>{
-    window.location.href = '/dist/location/location.html'
+    window.location.href = '../location/location.html'
 })
 
 addTask.addEventListener('click' , ()=>{

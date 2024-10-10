@@ -11,10 +11,10 @@ let latitude= 0;
 let longitude= 0;
 
 logoutbtn.addEventListener('click',()=>{
-    window.location.href = '/dist/index.html'
+    window.location.href = '../../index.html'
 })
 taskBtn.addEventListener('click',()=>{
-    window.location.href = '/dist/task/task.html'
+    window.location.href = '../task/task.html'
 })
 
 
